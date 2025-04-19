@@ -3,7 +3,7 @@
 Data set - [https://archive.ics.uci.edu/dataset/602/dry+bean+dataset](https://archive.ics.uci.edu/dataset/602/dry+bean+dataset)
 
 ## Optimizing Nu-Support Vector Machine Classifier and plotting convergence graph. This was done by 
-- Taking 10 samples of the data set through random sampling (with replacement) and ensuring that each sample is preprocessed
+- Taking 10 samples of the data set through random sampling (with replacement) and ensuring that each sample is preprocessed (Min Max Scaling and Label Encoding)
 - Training Nu-SVM classifier along with Randomized Search optimization on parameters like 'kernel', 'nu' and 'gamma'
 - Tabulating the results: This contains the best accuracy obtained in case of each sample and the parameter values the accuracy was obtained on
 - The results were then stored in a csv file, and the sample used for the model providing the best overall accuracy was chosen to plot the convergence graph
